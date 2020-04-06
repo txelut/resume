@@ -43,10 +43,14 @@
   font-style: normal;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  width: 21cm;
   font-family: Source Sans Pro, sans-serif;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 0px 10px 30px 10px;
   margin: auto;
   overflow-y: auto;
   overflow-x: hidden;
@@ -56,17 +60,15 @@ body {
   background: #ccc;
   box-sizing: border-box;
   position: relative;
-  width: 21cm;
-  height: 16.68cm;
   display: block;
   page-break-after: auto;
-  padding-bottom: 50px;
 }
 
 header {
   font-family: Open Sans, sans-serif;
   text-align: center;
   width: 100%;
+  height: 8.5cm;
   display: block;
   background: #fff;
 }
@@ -83,7 +85,7 @@ h1 {
   border: 1px solid #000;
   text-transform: uppercase;
   padding: 10px 20px;
-  margin-top: 80px;
+  margin-top: 65px;
   margin-bottom: 5px;
   font-size: 28px;
   letter-spacing: 8px;
@@ -94,7 +96,7 @@ header span {
   text-transform: uppercase;
   font-size: small;
   color: #757575;
-  margin: 10px auto 40px;
+  margin: 10px auto 35px;
   display: block;
 }
 
@@ -104,7 +106,7 @@ header img {
   border-radius: 50%;
   background-position: 50%;
   background-size: cover;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 main {
@@ -112,8 +114,8 @@ main {
   margin: 0 auto;
   position: relative;
   font-size: 15px;
-  padding-bottom: 50px;
-  height: 100%;
+  padding-bottom: 30px;
+  height: 15.5cm;
   width: 100%;
   display: block;
   background: #fff;
@@ -251,13 +253,12 @@ footer {
   color: #fff;
   background: #616161;
   text-align: center;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
+  padding-top: 6px;
+  padding-bottom: 10px;
 }
 
 footer p {
-    margin-top: 0px;
-    padding-top: 5px;
+  margin: 0px;
 }
 
 footer a {

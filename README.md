@@ -1,2 +1,2 @@
-# resume
-Resume HTML page developed in the context of Full-Stack Web Technologies postgraduate course.
+# txelut.github.io
+Resume HTML page developed within Full-Stack Web Technologies postgraduate context.
